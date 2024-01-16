@@ -361,7 +361,7 @@ height: 422px;
 flex-shrink: 0;
 border-radius: 16px;
 }
-.mountain-btn{
+/* .mountain-btn{
     color: #FFF;
 text-align: center;
 font-size: 24px;
@@ -373,6 +373,19 @@ flex-shrink: 0;
 border-radius: 16px;
 background: #FF5400;
 padding-left:400px;
+} */
+.mountain-btn{
+    color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+
 }
 .newsletter{
     display: flex;
@@ -380,3 +393,125 @@ padding-left:400px;
     padding: 50px 100px 30px 135px;
     
 }
+/* extra section */
+.thing-title{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.thing-descript{
+    color: #5A5A5D;
+font-size: 30px;
+font-weight: 400;
+}
+.need{
+    color: red;
+}
+.things{
+    text-align: center;
+}
+.hiking-img{
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;   
+
+}
+.hiking{
+    display: flex;
+    gap: 25px;
+    /* padding: 30px 150px 450px 30px; */
+    padding-left: 300px;
+    margin: auto;
+}
+.hik-title{
+    color: darkblue;
+    font-size: 25px;
+}
+.tent-title{
+    color: rgba(165, 42, 42, 0.958);
+}
+.tent-descript{
+    color: #5A5A5D;
+    font-size: 30px;
+    font-weight: 400;  
+}
+.tent{
+    text-align: center;
+}
+.hike-list{
+    font-size: 20px;
+}
+.tent-need{
+    color: rgba(0, 0, 128, 0.638)
+    font-size: 25px;
+}
+.tent-list{
+    font-size: 20px;
+}
+.tent-things{
+    display: flex;
+    gap: 25px;
+    padding-left: 300px;
+}
+.tent-img{
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;   
+ 
+}
+/* footer */
+.hero-img{
+    width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+}
+.hero{
+    color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+}
+.red{
+    color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+}
+.food-title{
+    display: flex;
+}
+.foot-descript{
+
+width: 769px;}
+.foot-icons{
+    display: flex;
+    gap: 20px;
+}
+.foot-img{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+
+}
+.reserved{
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+padding: 50px 0 60px 0;
+}
+.foot{
+    /* width: 1440px;
+height: 502px; */
+flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+text-align: center;
+padding: 10px 0 10px 0;
+
+}
+.middle{
+    align-items: center;
+    padding-left: 450px;
+}
+
+
+
+
+/* Response for small Devices */
