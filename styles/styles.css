@@ -357,35 +357,34 @@ padding: 15px 10px 30px 20px;
 }
 .mountain-img{
     width: 672px;
-height: 422px;
+height: 472px;
 flex-shrink: 0;
 border-radius: 16px;
 }
-/* .mountain-btn{
-    color: #FFF;
-text-align: center;
-font-size: 24px;
-font-weight: 400;
-width: 324px;
-height: 120px;
-transform: rotate(-19.628deg);
-flex-shrink: 0;
-border-radius: 16px;
-background: #FF5400;
-padding-left:400px;
-} */
 .mountain-btn{
     color: #FFF;
 text-align: center;
 font-size: 24px;
 font-weight: 400;
-width: 324px;
-height: 120px;
+width: 150px;
+height: 90px;
 transform: rotate(-19.628deg);
 flex-shrink: 0;
 border-radius: 16px;
 background: #FF5400;
-
+padding-left:300px;
+position: relative;
+left: 360px;
+top:-140px;
+}
+.save{
+    position: relative;
+    left: -225px;
+    top:-10px;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    
 }
 .newsletter{
     display: flex;
@@ -393,6 +392,9 @@ background: #FF5400;
     padding: 50px 100px 30px 135px;
     
 }
+
+
+
 /* extra section */
 .thing-title{
     color: #131318;
@@ -515,3 +517,31 @@ padding: 10px 0 10px 0;
 
 
 /* Response for small Devices */
+@media  screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        flex-direction: column;
+    }
+    .banner-descript{
+        flex-direction: column;
+    }
+    .option{
+        flex-direction: column;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .box1 .box2 .new-box{
+        flex-direction: column;
+    }
+
+}
+  
