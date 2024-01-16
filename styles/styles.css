@@ -479,6 +479,8 @@ font-weight: 800;
 }
 .foot-title{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .foot-descript{
 
